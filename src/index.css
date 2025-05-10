@@ -1,0 +1,8 @@
+/* responsive card to display products */
+
+@media (max-width: 576px) {
+    .card {
+      width: 100% !important; 
+    }
+}
+
