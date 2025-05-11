@@ -5,14 +5,15 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Product = ({items, cart, setCart}) => {
 
-  const addToCart = (id, price, title, description, imgSrc) => {
+  const addToCart = (id, price, title, description, imgSrc, amazonLink) => {
     
     const obj = {
       id: id,
       price: price,
       title: title,
       description: description,
-      imgSrc: imgSrc
+      imgSrc: imgSrc,
+      amazonLink: amazonLink
     }
     
     let flag = true;
@@ -96,7 +97,7 @@ theme="light"
           <p className="card-text">{product.description.slice(0, 60)}...</p>
           <div style={{display: "flex", justifyContent: "center", alignItems: "center", gap: "1.5rem"}}>
           <div className="btn btn-success">{product.price} ₹</div>
-          <div className="btn btn-warning" onClick={() => addToCart(product.id, product.price, product.title, product.description, product.imgSrc)}>Add To Cart</div>
+          <div className="btn btn-warning" onClick={() => addToCart(product.id, product.price, product.title, product.description, product.imgSrc, product.amazonLink)}>Add To Cart</div>
            </div>
 
        </div>

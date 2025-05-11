@@ -95,7 +95,7 @@ export const items =  [
       title: "Samsung Galaxy Tab A9",
       imgSrc: 'https://m.media-amazon.com/images/I/51b9LjzmPCL._SL1080_.jpg',
       amazonLink: 'https://amzn.to/3Pdsh4F',
-      description: 'Samsung Galaxy Tab A8 26.69cm (10.5 inch) Display, RAM 4 GB, ROM 64 GB Expandable, Wi-Fi Tablet, Gray, (SM-X200NZAEINU)',
+      description: 'Samsung Galaxy Tab A9 26.69cm (10.5 inch) Display, RAM 6 GB, ROM 128 GB Expandable, Wi-Fi Tablet, Gray, (SM-X200NZAEINU)',
       price: '49999',
     },
     {
@@ -103,8 +103,8 @@ export const items =  [
       category: 'laptops',
       title: "HP Pavilion Ryzen 5",
       imgSrc: 'https://m.media-amazon.com/images/I/71VlaIUD10L._SL1500_.jpg',
-      amazonLink: 'https://amzn.to/3r9rvhm',
-      description: 'Apple MacBook Air Laptop M1 chip, 15-inch/8GB Ram Hd Display, ',
+      amazonLink: 'https://www.flipkart.com/hp-pavilion-ryzen-5-hexa-core-amd-r5-5600h-8-gb-512-gb-ssd-windows-10-4-graphics-nvidia-geforce-gtx-1650-144-hz-15-ec2004ax-gaming-laptop/p/itm98c94bbf9bc20',
+      description: 'HP pavilion Gaming Ryzen 5, 15-inch/8GB Ram Hd Display, ',
       price: '89999',
     },
 

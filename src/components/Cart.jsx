@@ -37,7 +37,7 @@ const Cart = ({cart, setCart, onDelete}) => {
                 <p className="card-text">{p.description}</p>
           <div className='container text-center my-4 flexi1' style={{display: "flex", justifyContent: "center", alignItems: "center", gap: "3rem"}}>
            <button className='btn btn-dark'>{p.price} ₹</button>
-        <button className="btn btn-primary">BUY NOW</button>
+        <button onClick={() => window.open(p.amazonLink, '_blank')} className="btn btn-primary">BUY NOW</button>
          <button onClick={() => onDelete(p)} className='btn btn-danger'>Remove</button>
         </div>
               </div>
